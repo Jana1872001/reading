@@ -9,11 +9,16 @@
 > [!NOTE]
 > This site was built using [GitHub Pages](https://pages.github.com/).
 
+<details>
+<summary>My top languages</summary>
+
 | Rank | THING-TO-RANK |
 |-----:|---------------|
-|     1|               |
-|     2|               |
-|     3|               |
+|     1|java           |
+|     2|Asp            |
+|     3|Sql            |
 |     4|               | 
 |     5|               |
 |     6|               |
+
+</details>
