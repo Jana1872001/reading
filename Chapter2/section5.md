@@ -48,7 +48,10 @@ range of values
 ## Comparing objects of wrapper classes
 - For equality by using the method equals or the comparison operator, that is, ==.
 - **Method equals()** always compares the primitive value stored by a wrapper instance,**and ==** compares object references.
-- ال autoboxing عادي بياخدهم اذا حطيت == 
+- ال autoboxing عادي بياخدهم اذا حطيت ==  "Autoboxing returns a cached  copy for applicable values." Ex:Integer i5 = 10; 
+- valueOf returns a cached copy نفس الاشي 
+- Constructors always create new instances.لهيك اذا بستخدم == رح يعطيني فولس لازم تستخدم .equal
+
 
 > [!IMPORTANT]
 > Cached instances exist for the wrapper Boolean class for the values true and false. The Character class caches instances with values from 0 to 127. Classes Byte, Short, Integer, and Long cache instances for values -127 to 128. No cached instances exist for the Float and Double wrapper classes. 
