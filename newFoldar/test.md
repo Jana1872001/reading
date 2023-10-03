@@ -7,7 +7,8 @@
 
 > [!NOTE]
 > This site was built using [GitHub Pages](https://pages.github.com/).
-
+> This site was built using ![GitHub Pages](../images/Tickk.png).
+> This site was built using [GitHub Pages](../newFoldar/test.html).
 <details>
 <summary>My top languages</summary>
 
