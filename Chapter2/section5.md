@@ -1,4 +1,4 @@
-# Wrapper classes
+# **Wrapper classes**
 - Java defines a wrapper class for each of its primitive data types.
 - The wrapper classes are used to wrap primitives in an object, so they can be added to a collection object.
 - Wrapper classes help you write cleaner code, which is easy to read.
@@ -25,3 +25,31 @@ You can create objects of all the wrapper classes in multiple ways:
 >All wrapper classes (except Character) define a constructor that
 accepts a String argument representing the primitive value that needs to be
 wrapped.
+
+## Retrieving primitive values from the wrapper classes
+- The term
+primitive refers to the exact primitive data type name , Ex: booleanValue().
+
+## Parsing a string value to a primitive type
+- To get a primitive data type value corresponding to a string value, you can use the static utility method parseDataType,except Character.
+- Ex:  public static boolean parseBoolean(String s)
+> [!NOTE]
+>All these parsing methods throw NumberFormatExceptions for invalid values, except Boolean.parseBoolean();This method returns false whenever the string it parses is not equal to “true” (case-insensitive comparison).
+
+## Difference between using the valueOf method and constructors of wrapper classes
+- ValueOf method return obj of crossbonding wrraper class when it passed argument of primitive type or String. 
+- These classes(Byte, Short, Integer,long -128 to 127) & (Character 0-127) define inner static classes that store objects for the primitive values.
+- If you request an object of any of these classes,method Return a reference to a predefined object;Otherwise its crate new obj and return a ref of it.
+- Boolean class,  cached instances are accessible directly because only two exist: static constants Boolean.TRUE and Boolean.FALSE
+> [!NOTE]
+>Wrapper classes Float and Double don’t cache objects for any
+range of values
+
+## Comparing objects of wrapper classes
+- For equality by using the method equals or the comparison operator, that is, ==.
+- **Method equals()** always compares the primitive value stored by a wrapper instance,**and ==** compares object references.
+- ال autoboxing عادي بياخدهم اذا حطيت == 
+
+> [!IMPORTANT]
+> Cached instances exist for the wrapper Boolean class for the values true and false. The Character class caches instances with values from 0 to 127. Classes Byte, Short, Integer, and Long cache instances for values -127 to 128. No cached instances exist for the Float and Double wrapper classes. 
+
