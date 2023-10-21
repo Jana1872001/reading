@@ -26,4 +26,8 @@
 - You don’t even need an object to access a class variable. It can be accessed by using the name of the class.
 
 # COMPARING THE USE OF VARIABLES IN DIFFERENT SCOPES
+1. **Local variables** are defined **within a method** and are normally used to store the intermediate results of a calculation. 
+2. **Method parameters** are used **to pass values to a method**. These values can be manipulated and may also be assigned to instance variables.
+3. **Instance variables** are used **to store the state of an object**. These are the values that need to be accessed by multiple methods.
+4. **Class variables** are used to store values that should be shared by all the objects of a class.
 
