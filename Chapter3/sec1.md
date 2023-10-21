@@ -6,17 +6,17 @@
 
 ## Local variables
 - بتعرف جوا الميثود 
- **Defined within a method.**
- **To store the intermediate results of a calculation.**
+ - **Defined within a method.**
+ - **To store the intermediate results of a calculation.**
 - The scope of a local variable depends on the location of its declaration within a method.
 - defined within a loop, if-else, or switch construct or within a code block (marked with {}) is limited to these constructs.
 - defined outside any of these constructs are accessible across the complete method.
 ##  Method parameters
 - بتعرف جوا القوسين يلي قبال اسم الميثود
-**The variables that accept values in a method signature**. **Accessible only in the method that defines them**.
+- **The variables that accept values in a method signature**. **Accessible only in the method that defines them**.
 ## Instance variables
 - بتعرف جوا الكلاس
-**Instance is another name for an object.**
+- **Instance is another name for an object.**
 - An instance variable is declared within a class, outside all the method.
 - It’s accessible to all the instance (or nonstatic) methods defined in a class. 
 ##  Class variables
