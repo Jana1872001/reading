@@ -31,3 +31,5 @@
 3. **Instance variables** are used **to store the state of an object**. These are the values that need to be accessed by multiple methods.
 4. **Class variables** are used to store values that should be shared by all the objects of a class.
 
+## * A local variable takes precedence over an instance variable defined in the class with the same names.
+
