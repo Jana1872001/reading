@@ -3,6 +3,7 @@
 
 **Java Persistence API (JPA)**
 - Is a Java specification that deals with persistent data in Java applications. JPA is primarily concerned with the ORM layer.
-- One of the most widely used Java ORM frameworks is Hibernate
+
+**- One of the most widely used Java ORM frameworks is Hibernate**
 
 
