@@ -20,11 +20,11 @@ It helps to map java objects to the database and helps to reduce common persiste
 ## Difference Between JPA and Hibernate
 | JPA | Hibernate |
 |-----:|---------------|
-|     JPA is responsible for managing relational databases in Java applications|Hibernate is an ORM tool used for saving the state of the Java object in the database|
-|      javax.persistence package |org.hibernate package|
-|    JPA is the Java specification and not the implementation|Hibernate is an implementation of JPA|
-|    It uses Java Persistence Query Language (JPQL) is an object-oriented query language to perform database operations|It uses Hibernate Query Language (HQL) is an object-oriented query language to perform database operations|
-|    It uses the EntityManager interface to create, read, and delete operations for instances of mapped entity classes|It uses a Session interface to create, read, and delete operations for instances of mapped entity classes|
-|   It  uses the EntityManagerFactory interface to interact with the entity manager factory|It uses the SessionFactory interface for creating Session instances.|
+|JPA is responsible for managing relational databases in Java applications|Hibernate is an ORM tool used for saving the state of the Java object in the database|
+|javax.persistence package |org.hibernate package|
+|JPA is the Java specification and not the implementation|Hibernate is an implementation of JPA|
+|It uses Java Persistence Query Language (JPQL) is an object-oriented query language to perform database operations|It uses Hibernate Query Language (HQL) is an object-oriented query language to perform database operations|
+|It uses the EntityManager interface to create, read, and delete operations for instances of mapped entity classes|It uses a Session interface to create, read, and delete operations for instances of mapped entity classes|
+|It  uses the EntityManagerFactory interface to interact with the entity manager factory|It uses the SessionFactory interface for creating Session instances.|
 
 
