@@ -31,7 +31,11 @@ Hibernate ORM framework is designed by Red Hat.It supports a cross-platform JVM 
 - It helps in mapping Java data types to SQL data types.
 - It is the contributor of JPA.
 
+
+
 ## Difference Between JPA and Hibernate
+
+
 | JPA | Hibernate |
 |--------------- |---------------|
 |JPA is responsible for managing relational databases in Java applications|Hibernate is an ORM tool used for saving the state of the Java object in the database|
