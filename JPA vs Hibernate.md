@@ -16,10 +16,19 @@
 <p>It is considered as a link between an object-oriented model and a relational database system.
 <p>JPA does not conduct any functioning by itself. Therefore, it needs implementation. Hence, for data persistence ORM tools like Hibernate implements JPA specifications.
 
+
+- 
+
 ## What is Hibernate?
 <p>Hibernate is an open-source, lightweight ORM tool that provides Object-Relational persistence and query service for any Java application.
 It is one of the most popular implementations of Java Persistence API.
 It helps to map java objects to the database and helps to reduce common persistence-related programming tasks. This task can be done quickly using XML files, and you do not need to write any line of code.
+Hibernate ORM framework is designed by Red Hat.It supports a cross-platform JVM and is written in Java.
+
+ The main feature of Hibernate is to map the Java classes to database tables. 
+ - Hibernate is an implementation of JPA guidelines.
+- It helps in mapping Java data types to SQL data types.
+- It is the contributor of JPA.
 
 ## Difference Between JPA and Hibernate
 | JPA | Hibernate |
