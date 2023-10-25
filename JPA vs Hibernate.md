@@ -13,6 +13,8 @@
 <p>JPA represents how to define POJO (Plain Old Java Object) as an entity and manage it with relations using some meta configurations. They are defined either by annotations or by XML files.
 
 <p>It is a Java specification that gives some functionality and standard to ORM tools.
+<p>It is considered as a link between an object-oriented model and a relational database system.
+<p>JPA does not conduct any functioning by itself. Therefore, it needs implementation. Hence, for data persistence ORM tools like Hibernate implements JPA specifications.
 
 ## What is Hibernate?
 <p>Hibernate is an open-source, lightweight ORM tool that provides Object-Relational persistence and query service for any Java application.
