@@ -1,4 +1,14 @@
-# How JWT Works ?
+# JWT
+JSON Web Token (JWT) is a popular user authentication standard, used to securely exchange information online. 
+
+This token is made up of three components:
+1. A header that specifies the algorithm used to encrypt the contents of the token.
+2. A payload that contains “claims” (information the token securely transmits).
+3. A signature that can be used to verify the authenticity of the information.
+
+
+
+## How JWT Works ?
 <p>When customer and clint send HTTP request to our backend sysytem which is running on spring boot container running on apache tomcat server.
 
 > [!IMPORTANT]
