@@ -6,3 +6,4 @@
 
 The first thing that will happen , we will have an internal cheack to cheak if we have JWT token or not.
 IF the JWT token is missing we send 403 responce to clinet.
+IF we have JWT token , we will start validation process.
