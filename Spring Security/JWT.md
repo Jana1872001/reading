@@ -1,5 +1,6 @@
 # JWT
 JSON Web Token (JWT) is a popular user authentication standard, used to securely exchange information online. 
+JWTs can be used to authorize access to resources and services.
 
 This token is made up of three components:
 1. A header that specifies the algorithm used to encrypt the contents of the token.
@@ -23,4 +24,9 @@ IF the JWT token is missing we send 403 responce to clinet.
  JWT Authentication filed will cheak the JWT token extract the username or email or we call it the subject when we talk about JWT tokens and it will use that email to fetch the user deatils information from our database.
 
 ### Secound call(Responce)
- 2. Once user is fetched , we have responce from our database and the responce can be either way can be existing user or not existing user
+ 2. Once user is fetched , we have responce from our database and the responce can be either way can be existing user or not existing user.
+
+> [!NOTE]
+> @Data annotation equelitive getter&setter , constructor and toString method.
+
+
