@@ -23,7 +23,7 @@ It helps to map java objects to the database and helps to reduce common persiste
 
 ## Difference Between JPA and Hibernate
 | JPA | Hibernate |
-|-----:|---------------|
+|--------------- |---------------|
 |JPA is responsible for managing relational databases in Java applications|Hibernate is an ORM tool used for saving the state of the Java object in the database|
 |javax.persistence package |org.hibernate package|
 |JPA is the Java specification and not the implementation|Hibernate is an implementation of JPA|
