@@ -28,5 +28,14 @@ IF the JWT token is missing we send 403 responce to clinet.
 
 > [!NOTE]
 > @Data annotation equelitive getter&setter , constructor and toString method.
+> @Builder annotation help me to build my object in easy way.
 
 
+# How Does JWT Authorization Work? 
+ by encoding information into a JSON web token (JWT),then passed between the client and server.
+
+ The steps involved in a typical JWT authorization flow are as follows:
+ 1. Authentication: The client sends the user’s credentials to the server.which authenticates the user and generates a JWT containing information about the user.
+ 2. Issuing the Token: The server sends the JWT back to the client, which stores it for future use.
+ 3. Sending the Token: When the client wants to access a protected resource on the server, it sends the JWT in the Authorization header of the HTTP request.
+ 4. 
