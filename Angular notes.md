@@ -1,0 +1,1 @@
+- component in angular is a class in a javascript.

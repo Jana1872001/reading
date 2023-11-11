@@ -4,7 +4,7 @@ JWTs can be used to authorize access to resources and services.
 
 This token is made up of three components:
 1. A header that specifies the algorithm used to encrypt the contents of the token.
-2. A payload that contains “claims” (information the token securely transmits).
+2. A payload that contains “claims”(Clames are statment about an entity typically user and additional data) (information the token securely transmits).
 3. A signature that can be used to verify the authenticity of the information.
 
 
