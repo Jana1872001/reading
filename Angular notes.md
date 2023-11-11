@@ -1,1 +1,5 @@
-- component in angular is a class in a javascript.
+- Component in angular is a class in a typescript.
+- Angular can instantiate it to craete object based on blueprint .
+-Special decorator (Decorator Typescript feutuer that allow you to enhance your class,enhance element you use ,Its not restricted to class ).
+- @Component (one improtant info piece is "selector" html tags , importURL).
+- App module : angular uses component to build webpages and uses module to bundle diffrent pieces (functionlaty).
