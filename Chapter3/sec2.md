@@ -29,14 +29,14 @@ But the String class is an exceptional case here. String reference variables can
 
 
 
-class ObjectLifeCycle3 {
+
 
     //dcelare with new 
     String obj1 = new String("eJava"); 
 
     // declare with literal
     String obj2 = "Guru"; 
-    
-}
+
+
 
 
