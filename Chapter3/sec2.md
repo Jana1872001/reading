@@ -27,11 +27,16 @@ The difference in variable declaration and object creation:
 An object comes into being by using the new operator.
 But the String class is an exceptional case here. String reference variables can also be initialized by using string literal values: 
 
+
+
 class ObjectLifeCycle3 {
+
     //dcelare with new 
- String obj1 = new String("eJava"); 
- // declare with literal
- String obj2 = "Guru"; 
+    String obj1 = new String("eJava"); 
+
+    // declare with literal
+    String obj2 = "Guru"; 
+    
 }
 
 
