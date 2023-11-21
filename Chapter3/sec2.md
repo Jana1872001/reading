@@ -8,3 +8,18 @@ Java doesn’t allow you to allocate or deallocate memory yourself when you crea
 
 An object’s life cycle starts when it’s created and lasts until it goes out of scope or is
 no longer referenced by a variable.When an object is accessible, it can be referenced by a variable and other classes can use it by calling its methods and accessing its variables.
+
+## 3.2.1 An object is born 
+The difference in variable declaration and object creation:
+public class Example {
+    public static void main(String[] args) {
+        // Variable declaration
+        Car myCar;
+        
+        // Object creation and assignment
+        myCar = new Car();
+        
+        // Accessing an object method
+        myCar.start();
+    }
+}
