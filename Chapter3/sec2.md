@@ -11,6 +11,7 @@ no longer referenced by a variable.When an object is accessible, it can be refer
 
 ## 3.2.1 An object is born 
 The difference in variable declaration and object creation:
+
 public class Example {
     public static void main(String[] args) {
         // Variable declaration
