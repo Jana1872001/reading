@@ -38,5 +38,7 @@ But the String class is an exceptional case here. String reference variables can
     String obj2 = "Guru"; 
 
 
+### 3.2.2 Object is accessible
+Once an object is created, it can be accessed using its reference variable. It remains accessible until it goes out of scope or its reference variable is explicitly set to null. Also, if you reassign another object to an initialized reference variable
 
 
